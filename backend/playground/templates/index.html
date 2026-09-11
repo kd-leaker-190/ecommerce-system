@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello {{ name }}</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, magnam
+      nulla. Dolorum deserunt quo voluptatem labore, quidem architecto amet
+      aliquam beatae assumenda incidunt. At consequatur labore nulla itaque
+      porro nostrum.
+    </p>
+    <ul>
+      {% for product in products %}
+        <li>{{ product.title }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
